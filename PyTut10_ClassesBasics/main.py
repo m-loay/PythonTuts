@@ -8,18 +8,13 @@ if __name__ == '__main__':
     pass
 
 from Time1 import Time
-
-print("Count value=")
-print(Time.count)
-
-time1=Time(counter=1)
-time2=Time(2,counter=2)
-time3=Time(21,34,counter=3)
-time4=Time(12,25,42,4)
+time1 = Time(counter=1)
+time2 = Time(2, counter=2)
+time3 = Time(21, 34, counter=3)
+time4 = Time(12, 25, 42, 4)
 
 print("After creating objects Count value=")
 print(time1.count)
-
 
 print("Time 1")
 time1.printStandard()
@@ -44,5 +39,3 @@ del time4
 
 print("After deleting objects Count value=")
 print(Time.count)
-
-
